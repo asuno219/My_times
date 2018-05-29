@@ -1,4 +1,8 @@
 
+div {
+  border: 1px solid black;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -38,4 +42,13 @@ header nav {
 nav span {
   dispaly: inline-block;
   padding: 20px 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large{
+  width: 630px;
 }
